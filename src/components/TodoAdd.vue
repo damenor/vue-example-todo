@@ -18,14 +18,16 @@
 
         e.preventDefault()
 
-        const newTodo = {
-          id: uuid.v4(),
-          title: this.title,
-          completed: false
-        }
+        if(this.title.length > 0) {
+          const newTodo = {
+            id: uuid.v4(),
+            title: this.title,
+            completed: false
+          }
 
-        this.title = ''
-        this.$emit('todo-add', newTodo)
+          this.title = ''
+          this.$emit('todo-add', newTodo)
+        }
 
       }
     },
