@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 8px;
+    padding: 12px;
     padding-bottom: 0;
     overflow-y: scroll;
     box-shadow: var(--shadow-dark-inset);
