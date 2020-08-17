@@ -68,13 +68,13 @@
   }
 
   .todo-list__empty span {
-    font-size: 120px;
+    font-size: 100px;
   }
 
   .todo-list__empty p {
     padding-top: 16px;
     color: var(--color-light);
-    font-size: 24px;
+    text-align: center;
   }
 
 </style>
