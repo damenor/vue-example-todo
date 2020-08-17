@@ -41,7 +41,7 @@
   .todo-list {
     position:relative;
     max-width: 850px;
-    max-height: 450px;
+    max-height: calc(100vh - 226px);
     display: flex;
     flex-direction: column;
     margin: 0 auto;
