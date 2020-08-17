@@ -48,7 +48,7 @@
     padding: 8px;
     padding-bottom: 0;
     overflow-y: scroll;
-    box-shadow: var(--shadow-dark);
+    box-shadow: var(--shadow-dark-inset);
   }
 
   .todo-list__empty {
